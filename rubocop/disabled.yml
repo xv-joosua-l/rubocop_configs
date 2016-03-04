@@ -1,0 +1,54 @@
+# These are all the cops that are disabled in the default configuration.
+
+# SymbolArray:
+#   Description: 'Use %i or %I for arrays of symbols.'
+#   Enabled: false
+#
+# Encoding:
+#   Description: 'Use UTF-8 as the source file encoding.'
+#   Enabled: false
+#
+# Documentation:
+#   Description: 'Document classes and non-namespace modules.'
+#   Enabled: false
+#
+# AndOr:
+#   Description: 'Use &&/|| instead of and/or.'
+#   Enabled: false
+#
+# TrailingComma:
+#   Description: 'Checks for trailing comma in parameter lists and literals.'
+#   Enabled: false
+#
+# # TODO: enable
+# SpaceInsideBlockBraces:
+#   Description: >-
+#                  Checks that block braces have or don't have surrounding space.
+#                  For blocks taking parameters, checks that the left brace has
+#                  or doesn't have trailing space.
+#   Enabled: true
+#
+# # TODO: enable after upgrade to rails 4
+# ActionFilter:
+#   Description: 'Enforces consistent use of action filter methods.'
+#   Enabled: false
+#
+# DoubleNegation:
+#   Description: 'Checks for uses of double negation (!!).'
+#   Enabled: false
+#
+# LineEndConcatenation:
+#   Description: 'Use \\ instead of + to concatenate two string literals at line end.'
+#   Enabled: false
+
+NegatedIf:
+  Description: >
+                 Favor unless over if for negative conditions
+                 (or control flow or).
+  Enabled: false
+
+
+Style/SpaceInsideBrackets:
+  Description: 'No spaces after [ or before ].'
+  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#no-spaces-braces'
+  Enabled: false
