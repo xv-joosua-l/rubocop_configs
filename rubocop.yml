@@ -50,7 +50,7 @@ AllCops:
   DisabledByDefault: false
   # Enables the result cache if true. Can be overridden by the --cache command
   # line option.
-  UseCache: true
+  UseCache: false
   # Threshold for how many files can be stored in the result cache before some
   # of the files are automatically removed.
   MaxFilesInCache: 20000
