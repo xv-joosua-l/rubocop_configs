@@ -1,9 +1,6 @@
 # These are all the cops that are disabled in the default configuration.
 
-# SymbolArray:
-#   Description: 'Use %i or %I for arrays of symbols.'
-#   Enabled: false
-#
+
 # Encoding:
 #   Description: 'Use UTF-8 as the source file encoding.'
 #   Enabled: false
@@ -60,3 +57,24 @@ Layout/SpaceInsidePercentLiteralDelimiters:
 Layout/EmptyLineAfterMagicComment:
   Description: 'Does not exist in 0.42 ruleset.'
   Enabled: false
+
+Style/InverseMethods:
+  Description: 'Does not exist in 0.42 ruleset.'
+  Enabled: false
+
+Style/GuardClause:
+  Description: 'Does not exist in 0.42 ruleset.'
+  Enabled: false
+
+Style/SymbolArray:
+  Description: 'Disabled in 0.42 ruleset.'
+  Enabled: false
+
+Style/YodaCondition:
+  Description: 'Does not exist in 0.42 ruleset.'
+  Enabled: false
+
+Metrics/BlockLength:
+  Description: 'Does not exist in 0.42 ruleset.'
+  Enabled: false
+
