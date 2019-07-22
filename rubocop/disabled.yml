@@ -54,6 +54,9 @@ Layout/SpaceInsidePercentLiteralDelimiters:
   Description: 'No unnecessary spaces inside delimiters of %i/%w/%x literals.'
   Enabled: false
 
+######## START stuff that didn't exist in Rubocop 0.42
+###### TODO: fix the codebase to comply with new rules so these can be removed
+
 Layout/EmptyLineAfterMagicComment:
   Description: 'Does not exist in 0.42 ruleset.'
   Enabled: false
@@ -78,3 +81,16 @@ Metrics/BlockLength:
   Description: 'Does not exist in 0.42 ruleset.'
   Enabled: false
 
+Style/EmptyMethod:
+  Description: 'Does not exist in 0.42 ruleset.'
+  Enabled: false
+
+Security/JSONLoad:
+  Description: 'Does not exist in 0.42 ruleset.'
+  Enabled: false
+
+Lint/AmbiguousBlockAssociation:
+  Description: 'Does not exist in 0.42 ruleset.'
+  Enabled: false
+
+######## END stuff that didn't exist in Rubocop 0.42
