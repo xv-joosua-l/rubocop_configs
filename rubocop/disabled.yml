@@ -56,3 +56,7 @@ Layout/SpaceInsideBrackets:
 Layout/SpaceInsidePercentLiteralDelimiters:
   Description: 'No unnecessary spaces inside delimiters of %i/%w/%x literals.'
   Enabled: false
+
+Layout/EmptyLineAfterMagicComment:
+  Description: 'Does not exist in 0.42 ruleset.'
+  Enabled: false
